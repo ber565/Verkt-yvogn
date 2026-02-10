@@ -1,0 +1,7 @@
+
+body { padding-top: 2rem; }
+.navbar-brand { font-weight: 600; }
+.card { margin-bottom: 1rem; }
+.badge-status{ font-size: 0.9rem; }
+.qr-box { width: 140px; height: 140px; }
+footer { margin-top: 3rem; font-size: 0.9rem; color: #666; }
