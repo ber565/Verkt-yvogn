@@ -1,4 +1,6 @@
-https://oaekqkpkwzopodzoryyp.supabase.co
-sb_publishable_N2BNV3jxI-EXY3Z0kDELpw_E4sprVNp
-// Sett base-URL til API. Når frontend serveres fra samme Express-app, bruk relativ sti.
-const API_BASE = '';
+// Supabase config
+const SUPABASE_URL = "https://oaekqkpkwzopodzoryyp.supabase.co";
+const SUPABASE_KEY = "sb_publishable_N2BNV3jxI-EXY3Z0kDELpw_E4sprVNp";
+
+// Opprett Supabase-klient
+const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
